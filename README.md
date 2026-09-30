@@ -39,6 +39,10 @@ Each mode tracks its own best score, and your last-picked mode is remembered for
 
 Closing the panel mid-game pauses it; reopening shows the paused state rather than dropping you back in mid-tick. The game loop only runs while the panel is open, so the plugin uses no CPU while hidden.
 
+<img src="screenshot-gameover.png" alt="Game over screen with restart and exit options" width="260">
+
+Game over and win screens offer both options: `SPACE` to play again right away, or `ESC` to exit back to the start screen (mode selector + full controls) for next time.
+
 ## Removal
 
 ```
