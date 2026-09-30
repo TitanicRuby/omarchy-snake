@@ -10,7 +10,7 @@ A Nokia 3310-style Snake game for [Omarchy](https://omarchy.org)'s shell — liv
 omarchy plugin add https://github.com/titanicruby/omarchy-snake.git --enable
 ```
 
-(Replace the URL with wherever you publish this repo. `--enable` places the icon in your bar immediately; drop it to review the code first and enable later from **Setup → Plugins**.)
+(`--enable` places the icon in your bar immediately; drop it to review the code first and enable later from **Setup → Plugins**.)
 
 For local development instead of a git install, drop this folder at `~/.config/omarchy/plugins/io.github.titanicruby.snake/` and run:
 
@@ -51,7 +51,7 @@ omarchy plugin remove io.github.titanicruby.snake
 
 This unloads it from the bar immediately. If it's a hand-copied folder (not a git checkout) it gets moved to a timestamped backup inside `~/.config/omarchy/plugins/` rather than deleted outright.
 
-**Heads up:** disabling or removing a third-party bar-widget plugin (this one included) resets its saved best scores and last-picked mode. That's not a bug in this plugin — for third-party bar widgets, Omarchy's shell treats "enabled" as "present in `shell.json`'s bar layout at all," and the plugin's settings live inline on that same entry, so removing the entry removes the settings with it. If you want to keep your scores, don't disable/remove the plugin — just close the panel or disable your Hyprland session as usual.
+**Heads up:** disabling or removing a third-party bar-widget plugin (this one included) resets its saved best scores and last-picked mode. That's not a bug in this plugin — for third-party bar widgets, Omarchy's shell treats "enabled" as "present in `shell.json`'s bar layout at all," and the plugin's settings live inline on that same entry, so removing the entry removes the settings with it. If you want to keep your scores, don't disable/remove the plugin — just close the panel.
 
 ## Support
 
