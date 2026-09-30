@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.titanicruby.snake",
+  "name": "Snake",
+  "version": "1.0.0",
+  "author": "titanicruby",
+  "description": "Nokia 3310-style Snake game, played from a bar icon popout",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Snake",
+    "description": "Nokia 3310-style Snake game",
+    "category": "Games",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
